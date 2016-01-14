@@ -250,32 +250,7 @@ if (!class_exists(MiniShop)) {
         }
 
 
-    /*    function minishop_template($template)
-        {
-            if (get_post_type() == 'minishopproducts' or is_home()) {
-
-
-                if ($template_path = locate_template('minishopproducts')) {
-
-                    $template = load_template($template_path);
-
-                } else {
-
-                    require_once(dirname(__FILE__) . '/minishop_template/functions.php');
-
-                    $template_path = dirname(__FILE__) . '/minishop_template/minishopproducts.php';
-
-                    $template = load_template($template_path);
-
-                }
-
-
-            }
-            return $template;
-
-        }*/
-
-
+   
     }
 
 }
